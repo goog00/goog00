@@ -37,7 +37,7 @@ My contributions include:
 - [Zero-copy Tensor views and reinterpretation](https://github.com/NVlabs/cutile-rs/pull/50) using shared storage ownership with shape, byte-size, contiguity, alignment, and aliasing validation
 - [BF16 support](https://github.com/NVlabs/cutile-rs/pull/16) across the DSL, type system, and kernel execution path
 
-### [NVLabs/cuda-oxide](https://github.com/NVlabs/cuda-oxide)
+### [NVLabs/cuda-rust](https://github.com/NVlabs/cuda-rust)
 
 A compiler that lowers Rust MIR directly to CUDA PTX.
 
@@ -48,7 +48,7 @@ My contributions include:
 - Added LLVM `convergent` semantics for cooperative warp and barrier operations to prevent invalid compiler optimizations
 - Added MIR, LLVM IR, and PTX code-generation tests for the new lowering and GPU primitives
 
-[View my merged cuda-oxide PRs →](https://github.com/NVlabs/cuda-oxide/pulls?q=is%3Apr+is%3Amerged+author%3Agoog00)
+[View my merged cuda-oxide PRs →](https://github.com/NVlabs/cuda-rust/pulls?q=is%3Apr+is%3Amerged+author%3Agoog00)
 
 ### [Prajna](https://github.com/prajna-lang/prajna)
 
