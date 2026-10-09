@@ -8,6 +8,30 @@ My recent work spans multiple layers of GPU/NPU compiler systems:
 
 I enjoy working on compiler semantics, compilation and runtime systems, tensor computation, and heterogeneous execution.
 
+## Technologies
+
+- **Languages:** Rust, C++, Python, Java
+- **Compiler:** MLIR, LLVM, Rust MIR, IR lowering and transformation, affine/indexing maps, NVPTX, AMDGPU
+- **GPU Runtime:** CUDA Driver API, PTX/NVVM, CUDA streams, memory pools, JIT compilation, HIP/ROCm
+- **Platforms:** NVIDIA GPU, Ascend NPU, AMD ROCm
+
+## Looking for Opportunities
+
+I'm currently exploring **full-time opportunities in GPU/NPU compiler engineering and heterogeneous runtime systems**.
+
+I'm particularly interested in work involving:
+
+- GPU/NPU compiler infrastructure
+- MLIR / LLVM transformations and lowering
+- GPU code generation and backend development
+- JIT compilation and runtime systems
+- Tensor compiler and hardware-aware optimization
+- Open-source / upstream compiler development
+
+Alongside my recent compiler and GPU/NPU open-source work, I have 7 years of prior Java backend engineering experience building production systems.
+
+If your team is working on compiler infrastructure, GPU/NPU software, heterogeneous runtimes, or related open-source systems, I'd be happy to connect.
+
 ## Selected Open-Source Contributions
 
 ### [AscendNPU-IR](https://gitcode.com/Ascend/AscendNPU-IR)
@@ -23,7 +47,9 @@ My contributions include:
 
 [E2E and performance validation — AscendNPU-IR-DT #88 →](https://gitcode.com/NPU-IR/AscendNPU-IR-DT/pull/88)
 
-### [NVLabs/cutile-rs](https://github.com/NVlabs/cutile-rs)
+### [NVIDIA CUDA Rust](https://github.com/NVIDIA/cuda-rust)
+
+#### cutile-rs
 
 A Rust GPU DSL and asynchronous JIT runtime based on NVIDIA cuTile.
 
@@ -37,7 +63,7 @@ My contributions include:
 - [Zero-copy Tensor views and reinterpretation](https://github.com/NVlabs/cutile-rs/pull/50) using shared storage ownership with shape, byte-size, contiguity, alignment, and aliasing validation
 - [BF16 support](https://github.com/NVlabs/cutile-rs/pull/16) across the DSL, type system, and kernel execution path
 
-### [NVLabs/cuda-rust](https://github.com/NVlabs/cuda-rust)
+#### cuda-oxide
 
 A compiler that lowers Rust MIR directly to CUDA PTX.
 
@@ -76,30 +102,6 @@ My contributions include:
 - Contributed parameterized tests, formatting, and CI infrastructure
 
 [View my merged Galois PRs →](https://github.com/galois-stack/galois/pulls?q=is%3Apr+is%3Amerged+author%3Agoog00)
-
-## Technologies
-
-- **Languages:** Rust, C++, Python, Java
-- **Compiler:** MLIR, LLVM, Rust MIR, IR lowering and transformation, affine/indexing maps, NVPTX, AMDGPU
-- **GPU Runtime:** CUDA Driver API, PTX/NVVM, CUDA streams, memory pools, JIT compilation, HIP/ROCm
-- **Platforms:** NVIDIA GPU, Ascend NPU, AMD ROCm
-
-## Looking for Opportunities
-
-I'm currently exploring **full-time opportunities in GPU/NPU compiler engineering and heterogeneous runtime systems**.
-
-I'm particularly interested in work involving:
-
-- GPU/NPU compiler infrastructure
-- MLIR / LLVM transformations and lowering
-- GPU code generation and backend development
-- JIT compilation and runtime systems
-- Tensor compiler and hardware-aware optimization
-- Open-source / upstream compiler development
-
-Alongside my recent compiler and GPU/NPU open-source work, I have 7 years of prior Java backend engineering experience building production systems.
-
-If your team is working on compiler infrastructure, GPU/NPU software, heterogeneous runtimes, or related open-source systems, I'd be happy to connect.
 
 ## Links
 
